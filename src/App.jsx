@@ -1,5 +1,6 @@
 import './global.css'
 import Router from './Router'
+import Axios from 'axios'
 
 function App() {
   return (

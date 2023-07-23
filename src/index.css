@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #363333;
+  background-color:rgb(243, 217, 217);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,18 +16,22 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #f0ebeb;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
 
+#root, .App{
+  min-width: 100%;
+}
+
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  
   min-height: 100vh;
 }
 

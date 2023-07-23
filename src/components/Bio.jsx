@@ -4,7 +4,6 @@ function Bio (props) {
     return (
         <div className="Bio">
             <Image class="image" image={props.img}/>
-
         </div>
 
     )

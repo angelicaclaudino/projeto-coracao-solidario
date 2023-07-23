@@ -1,5 +1,5 @@
 .headerContainer {
-  background-color: red;
+  background-color: rgb(243, 217, 217);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,9 +10,15 @@
 
 .headerTitle {
   font-size: 4rem;
-  color: #fff
+  color: #dd1b1b
+}
+
+.headerText {
+  font-size: 1rem;
+  color: #dd1b1b
 }
 
 .headerImage {
-  width: 40%;
+  border-radius: 50%;
+  width: 50%;
 }

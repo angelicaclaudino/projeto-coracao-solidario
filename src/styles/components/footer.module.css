@@ -1,21 +1,28 @@
 .footerContent {
+  
   color: #fff;
   font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0.5em;
 }
 
 .socialList{
+  background-color: #dd1b1b;
   display:flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
+  list-style-type: none;
   
 }
 
 .socialList li{
   margin: 0 1em;
+}
+
+.socialList li:hover{
+  color: rgb(67, 14, 153);
 }
 
 .socialList svg{

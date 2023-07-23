@@ -1,15 +1,39 @@
 .menuContainer {
-  background: #424040;
+  background: #fa0410;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10rem;
-  padding: 2rem;
+  justify-content: space-between;
+  gap: 1.2em;
+  padding: 0.5rem;
   list-style: none;
-}
 
+}
+ 
 .menuLink {
   text-decoration: none;
   color: #faf2f2;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+ 
+}
+
+menuItem{
+  margin-right: 1em;
+ 
+}
+
+.menu a:hover{
+  color:red;
+
+}
+.menuImage{
+  border-radius: 50%;
+  width: 150px;
+
+}
+
+.menuList{
+  display: flex;
+  list-style: none;
+  align-items: center; 
+  gap: 1.2em;
+
 }
