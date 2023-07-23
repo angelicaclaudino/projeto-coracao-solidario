@@ -1,6 +1,6 @@
 import Header from "../components/Header"
 
-import sobre from '../assets/sobre.jpg'
+import sobre from '../assets/sobre.jpeg'
 import styles from '../styles/pages/sobre.module.css'
 import logoCoracao from '../assets/logoCoracao.png'
 import Bio from "../components/Bio"
@@ -13,18 +13,30 @@ const Sobre = () => {
         image={sobre} 
       />
 
-      <div className={styles.sobreContainer}>
-        <div className={styles.cardContainer}>
+      <div className={styles.sobreContainer}>        
+        {/* <div className={styles.cardContainer}>
+          
+        
           <Bio 
-           img={logoCoracao} //trocar essa foto       
+           img={logoCoracao}        
 
           />
         </div>
-        
-        <h2 className={styles.cardContainer}>"Como começamos"</h2>
+         */}
+         <section>
+          <p className={styles.sobreDescription}>
+          <h2 className={styles.cardContainer}>Quem somos</h2>
+
+            Um projeto social da Comunidade Católica de Missão e Adoração Fanuel. Composto por voluntários, engajados e apoiadores da Comunidade, 
+            que partilham de um desejo em comum de fazer o bem às pessoas mais necessitadas.
+
+          </p>
+        </section> 
         <section>
           <p className={styles.sobreDescription}>
-            Com base na passagem bíblica Mt 25,35-45, nosso fundador, Danilo Barbosa teve a inspiração de idealizar este projeto.
+          <h2 className={styles.cardContainer}>Como começamos</h2>
+
+            No ano de 2008, com base na passagem bíblica Mt 25,35-45, nosso fundador Danilo Barbosa, teve a inspiração de idealizar este projeto.
             Que leva alimento físico e espiritual aos necessitados que se encontram em situação de rua, vivendo na Praça do Ferreira no Centro de Fortaleza - CE.
 
           </p>

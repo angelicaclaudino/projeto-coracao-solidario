@@ -3,12 +3,14 @@ import Header from "../components/Header"
 // import database from '../service/firebase'
 // import { ref, push, set } from 'firebase/database'
 
-import contato from '../assets/contato.jpg'
+import apoie from '../assets/apoie.jpeg'
 
 import styles from '../styles/pages/contato.module.css'
 import { useState } from "react"
 
 const Contato = () => {
+  
+
   const [nome, setNome] = useState('')
   const [email, setEmail] = useState('')
   const [mensagem, setMensagem] = useState('')
@@ -45,10 +47,17 @@ const Contato = () => {
     <>
       <Header 
         title="Faça parte dessa iniciativa!" 
-        image={contato} 
+        image={apoie} 
       />
       <main>
+        
+          <h2 className={styles.h2}>Estas são as formas de nos ajudar:</h2>
+          <p className={styles.container}>1 - Com as suas orações: somos uma obra católica, contamos com a sua oração. Ela nos fortalece.</p>
+          <p className={styles.container}>2 - Sendo voluntário:  realizando as entregas conosco, disponibilizando seu transporte ou mesmo a sua presença.</p>
+          <p className={styles.container}>3 - Sendo doador: doando alimentos, ingredientes ou algum valor em espécie.</p>
+        
         <form className={styles.form} onSubmit={handleSubmit}>
+          <h2 className={styles.h2}>Se interessou? Fala com a gente!</h2>
           <input 
             className={styles.formInput}
             type="text"

@@ -1,6 +1,7 @@
 .acoesContainer {
-    background: red;
+    background: rgb(243, 217, 217);
     display: flex;
+    color:#534141;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
@@ -8,16 +9,38 @@
     padding: 1rem;
     list-style: none;
   }
-/*   
-  .cardLink {
-    text-decoration:none;
-    color: #ca70a8;
-    font-size: 1.5rem;
-  } */
+
+  .h2{
+    color: #dd1b1b;
+  }
+
+  .inner{
+    display:flex;
+  }
+
+  .item{
+    min-height: 300px;
+    min-width: 200px;
+    padding: 1px;
+  }
+
+  .item img{
+    width: 80%;
+    height: 90%;
+    border-radius: 20px;
+    pointer-events: none;
+  }
+
+  .carousel{
+    max-width: 350px;
+
+    cursor: grab;
+    overflow: hidden;
+  }
 
   .cardAction {
     text-decoration: none;
-    color: #f0f0f5;
+    color: #423535;
     font-size: 1.5rem;
     background-color: rgb(194, 83, 83);
     border: #0e0d0d;
