@@ -54,4 +54,10 @@ Há 15 anos distribui alimento para pessoas carentes no Bairro Ellery e pessoas 
 * React -  [https://react.dev/]
 * Framer Motion - [https://www.npmjs.com/package/framer-motion]
 
+🛠️ Implementações futuras
+
+* Compatibilidade com dispositivos mobile;
+* Versão dark mode;
+
+
 ✒️ Projeto implementado por Angélica Claudino.
