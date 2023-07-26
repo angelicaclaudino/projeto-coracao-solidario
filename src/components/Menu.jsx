@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 
-import logo from '../assets/logoCoracao.png'
+import logo from '../assets/logo.png'
 
 import styles from '../styles/components/menu.module.css'
 
 const Menu = () => {
   return (
     <nav className={styles.menuContainer}>
-      <Link to="https://www.instagram.com/comunidadefanuel" target="_blank">
+      <Link to="/" target="_blank">
         <img className={styles.menuImage}src={logo} alt="Logo Projeto"/>
       </Link>
       <ul className={styles.menuList}>

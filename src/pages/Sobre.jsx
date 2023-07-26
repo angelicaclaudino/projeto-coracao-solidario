@@ -1,9 +1,7 @@
 import Header from "../components/Header"
 
-import sobre from '../assets/sobre.jpeg'
+import sobre from '../assets/sobre.png'
 import styles from '../styles/pages/sobre.module.css'
-import logoCoracao from '../assets/logoCoracao.png'
-import Bio from "../components/Bio"
 
 const Sobre = () => {
   return (
@@ -14,15 +12,7 @@ const Sobre = () => {
       />
 
       <div className={styles.sobreContainer}>        
-        {/* <div className={styles.cardContainer}>
-          
         
-          <Bio 
-           img={logoCoracao}        
-
-          />
-        </div>
-         */}
          <section>
           <p className={styles.sobreDescription}>
           <h2 className={styles.cardContainer}>Quem somos</h2>

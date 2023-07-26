@@ -38,7 +38,7 @@
 .formButton {
   width: 60%;
   padding: .6rem 2rem;
-  background-color: #4CAF50;
+  background-color: #dd1b1b;
   color: #fff;
   border: none;
   margin-top: 1rem;
@@ -48,5 +48,5 @@
 }
 
 .formButton:hover {
-  background-color: #4CA;
+  background-color: rgb(245, 3, 3);
 }

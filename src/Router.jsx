@@ -5,8 +5,10 @@ import Sobre from './pages/Sobre'
 import Acoes from './pages/Acoes'
 import Contato from './pages/Contato'
 import Footer from './components/Footer'
+import logo from './assets/logo.png'
 
-import logo from './assets/logoFanuel.png'
+
+
 
 
 const Router = () => {

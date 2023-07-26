@@ -74,13 +74,13 @@ const Contato = () => {
           />
           <textarea 
             className={styles.formInput}
-            placeholder="Digite sua mensagem"
+            placeholder="Informe aqui como gostaria de nos ajudar"
             onChange={handleInputMensagem}
             value={mensagem}
           />
           <button 
             className={styles.formButton} 
-            type="submit">Enviar Mensagem
+            type="submit">Quero me tornar um apoiador(a)
           </button>
         </form>
       </main>
